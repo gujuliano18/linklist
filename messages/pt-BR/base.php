@@ -32,4 +32,8 @@ return array (
   'You miss the rights to edit this category!' => 'Você não tem permissão para editar esta categoria!',
   'You miss the rights to edit this link!' => 'Você não tem permissão para editar esse link!',
   'list' => 'lista',
+  '<strong>Create</strong> new category' => '<strong>Criar</strong> nova categoria',
+  '<strong>Create</strong> new link' => '<strong>Criar</strong> novo link',
+  '<strong>Edit</strong> category' => '<strong>Editar</strong> Categoria',
+  '<strong>Edit</strong> link' => '<strong>Editar</strong> Link',
 );
