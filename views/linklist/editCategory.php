@@ -18,9 +18,10 @@ use yii\helpers\Html;
 
 <div class="panel panel-default">
     <?php if ($category->isNewRecord) : ?>
-        <div class="panel-heading"><strong>Create</strong> new category</div>
+	<div class="panel-heading"><?= Yii::t('LinklistModule.base', '<strong>Create</strong> new category'); ?></div>
+
     <?php else: ?>
-        <div class="panel-heading"><strong>Edit</strong> category</div>
+	    <div class="panel-heading"><?= Yii::t('LinklistModule.base', '<strong>Edit</strong> category'); ?></div>
     <?php endif; ?>
     <div class="panel-body">
 
