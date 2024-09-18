@@ -4,7 +4,7 @@ return array (
   '<strong>Confirm</strong> link deleting' => '<strong>Confirmar</strong> exclusão de link',
   'Add Category' => 'Adicionar categoria',
   'Add link' => 'Adicionar Link',
-  'Added a new link %link% to category "%category%".' => 'Adicionado um novo link %link% à categoria "%category%"',
+  'Added a new link %link% to category "%category%".' => 'Adicionei um novo link %link% à categoria "%category%"',
   'Cancel' => 'Cancelar',
   'Delete' => 'Excluir',
   'Delete category' => 'Excluir categoria',
