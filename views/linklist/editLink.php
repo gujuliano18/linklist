@@ -18,9 +18,9 @@ use yii\helpers\Html;
 
 <div class="panel panel-default">
     <?php if ($link->isNewRecord) : ?>
-        <div class="panel-heading"><strong>Create</strong> new link</div>
+	    <div class="panel-heading"><?= Yii::t('LinklistModule.base', '<strong>Create</strong> new link'); ?></div>
     <?php else: ?>
-        <div class="panel-heading"><strong>Edit</strong> link</div>
+	    <div class="panel-heading"><?= Yii::t('LinklistModule.base', '<strong>Edit</strong> link'); ?></div>
     <?php endif; ?>
 
     <div class="panel-body">
