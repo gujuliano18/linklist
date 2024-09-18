@@ -38,7 +38,7 @@ use yii\helpers\Html;
             <?= $form->field($category, 'sort_order')->textInput(); ?>
         </div>
 
-        <?= Html::submitButton('Save', ['class' => 'btn btn-primary']); ?>
+        <?= Html::submitButton(Yii::t('LinklistModule.base', 'Save'), ['class' => 'btn btn-primary']); ?>
 
         <?php $form::end(); ?>
     </div>
